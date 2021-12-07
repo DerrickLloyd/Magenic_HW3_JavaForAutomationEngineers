@@ -1,6 +1,6 @@
 /**
  * TODO FOR HOMEWORK - ShapeFactory.java
- *      [ ] Uncomment any marked code in both CreateShape methods
+ *      [X] Uncomment any marked code in both CreateShape methods
  */
 public class ShapeFactory {
     /**
@@ -33,7 +33,7 @@ public class ShapeFactory {
             // If the shape is a Rectangle, it creates a rectangle object
             case Rectangle:
                 // TODO FOR HOMEWORK: Uncomment the lines below when Rectangle.java is complete
-//                return new Rectangle(length, height);
+                return new Rectangle(length, height);
 
             // If the shape is a EquilateralTriangle, it creates a equilateral triangle object
             case EquilateralTriangle:
@@ -44,7 +44,7 @@ public class ShapeFactory {
                 }
 
                 // TODO FOR HOMEWORK: Uncomment the line below when EquilateralTriangle.java is complete
-//                return new EquilateralTriangle(length);
+                return new EquilateralTriangle(length);
 
             // If the shape is not set return null instead of the shape object
             case NONE:
@@ -74,7 +74,7 @@ public class ShapeFactory {
             // If the shape is a EquilateralTriangle, it creates a equilateral triangle object
             case EquilateralTriangle:
                 // TODO FOR HOMEWORK: Uncomment the line below when EquilateralTriangle.java is complete
-//                return new EquilateralTriangle(length);
+                return new EquilateralTriangle(length);
 
             // If the shape is not set return null instead of the shape object
             case NONE:

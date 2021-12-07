@@ -15,9 +15,9 @@ public class RectangleTest {
         double height = 2;
 
         // TODO FOR HOMEWORK: Uncomment the lines below when Rectangle.java is complete
-//        Rectangle rectangle = new Rectangle(length, height);
-//        Assert.assertEquals(rectangle.getLength(), length);
-//        Assert.assertEquals(rectangle.getHeight(), height);
+        Rectangle rectangle = new Rectangle(length, height);
+        Assert.assertEquals(rectangle.getLength(), length);
+        Assert.assertEquals(rectangle.getHeight(), height);
     }
 
     /**
@@ -29,8 +29,8 @@ public class RectangleTest {
         double height = 3;
 
         // TODO FOR HOMEWORK: Uncomment the lines below when Rectangle.java is complete
-//        Rectangle rectangle = new Rectangle(length, height);
-//        Assert.assertEquals(rectangle.area(), length * height);
+        Rectangle rectangle = new Rectangle(length, height);
+        Assert.assertEquals(rectangle.area(), length * height);
     }
 
     /**
@@ -42,7 +42,7 @@ public class RectangleTest {
         double height = 7;
 
         // TODO FOR HOMEWORK: Uncomment the lines below when Rectangle.java is complete
-//        Rectangle rectangle = new Rectangle(length, height);
-//        Assert.assertEquals(rectangle.perimeter(), 2 * length + 2 * height);
+        Rectangle rectangle = new Rectangle(length, height);
+        Assert.assertEquals(rectangle.perimeter(), 2 * length + 2 * height);
     }
 }

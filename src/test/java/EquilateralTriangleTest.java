@@ -14,9 +14,9 @@ public class EquilateralTriangleTest {
         double length = 7;
 
         // TODO FOR HOMEWORK: Uncomment the lines below when EquilateralTriangle.java is complete
-//        EquilateralTriangle triangle = new EquilateralTriangle(length, height);
-//        Assert.assertEquals(triangle.getLength(), length);
-//        Assert.assertEquals(triangle.getHeight(), Math.sqrt(3) * length / 2);
+        EquilateralTriangle triangle = new EquilateralTriangle(length);
+        Assert.assertEquals(triangle.getLength(), length);
+        Assert.assertEquals(triangle.getHeight(), Math.sqrt(3) * length / 2);
     }
 
     /**
@@ -28,8 +28,8 @@ public class EquilateralTriangleTest {
         double height = Math.sqrt(3) * length / 2;
 
         // TODO FOR HOMEWORK: Uncomment the lines below when EquilateralTriangle.java is complete
-//        EquilateralTriangle triangle = new EquilateralTriangle(length);
-//        Assert.assertEquals(triangle.area(), length * height / 2);
+        EquilateralTriangle triangle = new EquilateralTriangle(length);
+        Assert.assertEquals(triangle.area(), length * height / 2);
     }
 
     /**
@@ -41,7 +41,7 @@ public class EquilateralTriangleTest {
         double height = Math.sqrt(3) * length / 2;
 
         // TODO FOR HOMEWORK: Uncomment the lines below when EquilateralTriangle.java is complete
-//        EquilateralTriangle triangle = new EquilateralTriangle(length);
-//        Assert.assertEquals(triangle.perimeter(), 3 * length);
+        EquilateralTriangle triangle = new EquilateralTriangle(length);
+        Assert.assertEquals(triangle.perimeter(), 3 * length);
     }
 }
